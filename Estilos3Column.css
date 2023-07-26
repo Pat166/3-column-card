@@ -1,0 +1,81 @@
+/*Estilos*/
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+.Contenedor{
+    display: flex;
+}
+.SEDANS{
+    display: inline-block;
+    width: 33.33%;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 15px 0px 0px 15px;
+}
+.SUVS{
+    display: inline-block;
+    width: 33.33%;
+    background-color: hsl(184, 100%, 22%);
+}
+.LUXURY{
+    display: inline-block;
+    width: 33.33%;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 15px 15px 0px;
+
+}
+img{
+    margin-top: 9%;
+    margin-left: 18%;
+}
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 9%;
+    margin-left: 18%;
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 9%;
+    margin-left: 18%;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+}
+button{
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+#BSedan{
+    border: none;
+    width: 30%;
+    height: 10%;
+    color: hsl(31, 77%, 52%);
+    font-weight:400px;
+    text-size-adjust: 14px;
+    margin-top: 18%;
+    margin-left: 18%;
+    margin-bottom: 18%;
+    border-radius: 50px 50px 50px 50px;
+}
+#BSuvs{
+    border: none;
+    width: 30%;
+    height: 10%;
+    color: hsl(184, 100%, 22%);
+    font-weight:400px;
+    text-size-adjust: 14px;
+    margin-top: 18%;
+    margin-left: 18%;
+    margin-bottom: 18%;
+    border-radius: 50px 50px 50px 50px;
+}
+#BLux{
+    border: none;
+    width: 30%;
+    height: 10%;
+    color:  hsl(179, 100%, 13%);
+    font-weight:400px;
+    text-size-adjust: 14px;
+    margin-top: 18%;
+    margin-left: 18%;
+    margin-bottom: 18%;
+    border-radius: 50px 50px 50px 50px;
+}
